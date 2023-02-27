@@ -6,7 +6,7 @@ from menu.models import Item
 register = template.Library()
 
 
-@register.inclusion_tag('menu/nested_menu.html', takes_context=True)
+@register.inclusion_tag('menu/menu.html', takes_context=True)
 def draw_menu(context, menu):
 
     try:

@@ -5,7 +5,7 @@
         </li>
 
         {% if item.child_items %}
-            {% include 'menu/nested_menu.html' with items=item.child_items %}
+            {% include 'menu/menu.html' with items=item.child_items %}
         {% endif %}
 
     {% endfor %}
