@@ -21,15 +21,25 @@
 
 ### Сборка и запуск:
 git clone https://github.com/ELePhanT1708/tree_menu_django.git
+
 cd tree_menu_django
+
 pip install virtualenv
+
 python3 -m venv venv
+
 venv/bin/activate
+
 pip install -r requirements.txt
+
 cd app/
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py runserver
+
 ```
 
 ### License
